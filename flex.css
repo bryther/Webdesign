@@ -1,0 +1,67 @@
+.flex-tape {
+    display: flex;
+    background-color: dodgerblue;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+    margin-left: 70%;
+    width: 30%;
+    align-self: flex-end;
+}
+
+.flex-tape > div {
+    background-color: azure;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+}
+
+.flex-seal {
+    display: flex;
+    background-color: orangered;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.flex-seal > div {
+    background-color: azure;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+}
+
+.flex-glue {
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    background-color: forestgreen;
+    margin-bottom: 20px;
+    width: 20%;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+.flex-glue > div {
+    background-color: azure;
+    height: 100px;
+    width: 10%;
+    margin: 5%;
+}
+
+.flex-spray {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: greenyellow;
+    width: 30%;
+    margin-bottom: 20px;
+    margin-right: 35%;
+    margin-left: 35%;
+    float: none;
+}
+
+.flex-spray > div {
+    background-color: azure;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    margin 15%;
+}

@@ -1,0 +1,56 @@
+.flex-nav {
+    display: flex;
+    background-color: #3d3d29;
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+    justify-content: space-between;
+    padding: 3px;
+}
+
+a > div {
+    border-style: solid;
+    border-width: 3px;
+    height 40px;
+    width 120px;
+    border-color: azure;
+    color: black;
+    background-color: aliceblue;
+    background-color: #e0e8ee;
+}
+
+
+.flex-container {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+
+}
+
+.flex-container > div {
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
+nav-button:hover {
+    background-color: azure;
+    color: #3d3d29;
+}
+
+.flexy-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: dodgerblue;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 10px;
+
+}
+
+.flexy-container > div {
+    background-color: aliceblue;
+    width: 256px;
+    height: 256px;
+    margin: 15px;
+}
